@@ -13,7 +13,7 @@ function sortear(){
 
     if (isLimite()) {
         vetor.push(numero);
-        lista += "<li>"+ numero + "</li>"
+        lista += "<li>" +numero +" - " +"</li>"
         document.getElementById("lista").innerHTML = lista;
 
         document.querySelector('#sorteio').innerHTML = numero;
