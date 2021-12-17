@@ -23,10 +23,10 @@ div#num{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-left: 20%;
-    height: 40%;
-    width: 60%;
-    border-radius: 5%;
+    margin-left: 25%;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
     background-color: #D3D3D3;
     padding: 10px;
 }

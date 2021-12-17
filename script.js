@@ -5,6 +5,13 @@ const MAX = 76
 function sortear(){
     let lista = document.getElementById("lista").innerHTML;
     let numero;
+    if(!isLimite()){
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Todos os números foram sorteados!',
+          })
+    }
     do{
         if (isLimite()) {
             numero = parseInt(Math.random() * (MAX - 1) + 1, 10);
