@@ -25,9 +25,8 @@ function sortear(){
 
         document.querySelector('#sorteio').innerHTML = numero;
     }
-    console.log(vetor);
-    console.log(vetor.length);
 }
 
 const presente = (numero) => vetor.indexOf(numero) != -1;
 const isLimite = () =>  vetor.length < LIMITE
+
