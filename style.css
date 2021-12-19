@@ -9,6 +9,10 @@ html,body{
 body{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,212,255,1) 97%);
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
 }
 h1{
     padding: 2px;
@@ -23,9 +27,8 @@ div#num{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-left: 25%;
-    height: 50%;
-    width: 50%;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     background-color: #D3D3D3;
     padding: 10px;
